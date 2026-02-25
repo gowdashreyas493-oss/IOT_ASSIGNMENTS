@@ -1,0 +1,20 @@
+package Module3;
+class Animals {
+    void eat() {
+        System.out.println("This animal eats food.");
+    }
+}
+class Dogs extends Animals {
+    void bark() {
+        System.out.println("The dog barks.");
+    }
+}
+public class InheritanceDemo {
+    public static void main(String[] args) {
+
+        Dogs d = new Dogs();
+
+        d.eat();
+        d.bark();
+    }
+}
