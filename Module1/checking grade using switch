@@ -1,0 +1,17 @@
+import java.util.*;
+public class Grade{
+public static void main(String[]args){
+Scanner sc=new Scanner(System.in);
+System.out.println("Enter the marks out of 100:");
+int m=sc.nextInt();
+char g;
+switch(m/10){
+case 10:
+case 9:g='A';break;
+case 8:g='B';break;
+case 7:g='C';break;
+case 6:g='D';break;
+default:g='F';
+}
+System.out.println(g);
+}}
