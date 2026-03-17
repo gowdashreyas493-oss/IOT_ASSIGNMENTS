@@ -1,0 +1,7 @@
+Algorithm           Best Case           Average Case            Worst Case          Space Complexity            Stability
+
+Bubble Sort           O(n)                  O(n2)                 O(n2)                 O(1)                     Stable
+Selection Sort        O(n2)                 O(n2)                 O(n2)                 O(1)                    Unstable
+Insertion Sort        O(n)                  O(n2)                 O(n2)                 O(1)                     Stable
+Merge Sort          O(nlogn)              O(nlogn)              O(nlogn)                O(n)                     Stable
+Quick Sort          O(nlogn)              O(nlogn)                O(n2)               O(logn)                   Unstable
